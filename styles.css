@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+*{
+    font-family: 'Heebo', sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+}
+.Post{
+    background-color: white;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width:35rem;
+}
+.Post > header{
+    display: flex;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+    align-items: center;
+}
+
+.fab{
+    margin-left: 1rem;
+    font-size: 3rem;
+}
+.title{
+    margin-left: 1rem;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.title > span:first-child{
+    font-weight: bold;
+}
+.fas{
+    margin-left: 24rem;
+}
+.imgPost{
+    display: flex;
+    object-fit: cover;
+}
+.imgPost > img{
+    width: 100%;
+}
+.likesandshare{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.7rem;
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+.likesandshare > div:first-child{
+    margin-left: 0.5rem;
+}
+.likesandshare > div:last-child{
+    margin-right: 0.5rem;
+}
+.footer{
+    margin-left: 1rem;
+}
+.footer > p > span{
+    font-weight: bold;
+}
+.post-body{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1.2rem;
